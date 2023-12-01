@@ -14,7 +14,7 @@
     <repositories>
     <repository>
       <id>google</id>
-      <url>https://maven.google.com</url>
+      <url>https://maven.google.com/</url>
     </repository>
     <repository>
       <id>central</id>

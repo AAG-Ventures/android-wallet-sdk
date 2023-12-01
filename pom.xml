@@ -24,18 +24,17 @@
 
   <build>
       <plugins>
-          <plugin>
-              <groupId>com.simpligility.maven.plugins</groupId>
-              <artifactId>android-maven-plugin</artifactId>
-              <version>${android.maven.plugin.version}</version>
-              <extensions>true</extensions>
-              <configuration>
-                <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
-                <assetsDirectory>${project.basedir}/assets</assetsDirectory>
-                <resourceDirectory>${project.basedir}/res</resourceDirectory>
-                <nativeLibrariesDirectory>${project.basedir}/libs</nativeLibrariesDirectory>
-              </configuration>
-          </plugin>
+        <plugin>
+          <groupId>com.simpligility.maven.plugins</groupId>
+          <artifactId>android-maven-plugin</artifactId>
+          <version>${android.maven.plugin.version}</version>
+          <configuration>
+            <androidManifestFile>${project.basedir}/src/main/AndroidManifest.xml</androidManifestFile>
+            <assetsDirectory>${project.basedir}/src/main/assets</assetsDirectory>
+            <resourceDirectory>${project.basedir}/src/main/res</resourceDirectory>
+            <nativeLibrariesDirectory>${project.basedir}/src/libs</nativeLibrariesDirectory>
+          </configuration>
+        </plugin>
       </plugins>
   </build>
 

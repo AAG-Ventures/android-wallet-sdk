@@ -11,7 +11,7 @@
     <android.maven.plugin.version>4.6.0</android.maven.plugin.version>
   </properties>
 
-    <repositories>
+  <repositories>
     <repository>
       <id>google</id>
       <url>https://maven.google.com/</url>
@@ -38,6 +38,7 @@
       <groupId>androidx.multidex</groupId>
       <artifactId>multidex</artifactId>
       <version>2.0.1</version>
+      <type>aar</type>
     </dependency>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
@@ -63,6 +64,7 @@
       <groupId>androidx.biometric</groupId>
       <artifactId>biometric</artifactId>
       <version>1.1.0</version>
+      <type>aar</type>
     </dependency>
 </dependencies>
 </project>

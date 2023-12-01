@@ -1,0 +1,5 @@
+<dependency>
+  <groupId>com.cybavo.wallet</groupId>
+  <artifactId>wallet-sdk-lib</artifactId>
+  <version>1.2.4940</version>
+</dependency>

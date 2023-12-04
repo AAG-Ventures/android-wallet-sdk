@@ -31,8 +31,7 @@
           <extensions>true</extensions>
           <configuration>
             <sdk>
-              <platform>25</platform>
-              <buildTools>25.3.0</buildTools>
+              <platform>29</platform>
             </sdk>
             <androidManifestFile>${project.basedir}/src/main/AndroidManifest.xml</androidManifestFile>
             <assetsDirectory>${project.basedir}/src/main/assets</assetsDirectory>

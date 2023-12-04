@@ -7,6 +7,10 @@
   <version>1.2.4940</version>
   <packaging>aar</packaging>
 
+  <properties>
+    <android.maven.plugin.version>4.0.0</android.maven.plugin.version>
+  </properties>
+
   <repositories>
     <repository>
       <id>google</id>

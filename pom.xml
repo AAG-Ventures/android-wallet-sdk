@@ -7,10 +7,6 @@
   <version>1.2.4940</version>
   <packaging>aar</packaging>
 
-  <properties>
-    <android.maven.plugin.version>4.0.0</android.maven.plugin.version>
-  </properties>
-
   <repositories>
     <repository>
       <id>google</id>
@@ -30,6 +26,9 @@
           <version>${android.maven.plugin.version}</version>
           <extensions>true</extensions>
           <configuration>
+            <sdk>
+              <platform>23</platform>
+            </sdk>
             <androidManifestFile>${project.basedir}/src/main/AndroidManifest.xml</androidManifestFile>
             <assetsDirectory>${project.basedir}/src/main/assets</assetsDirectory>
             <resourceDirectory>${project.basedir}/src/main/res</resourceDirectory>

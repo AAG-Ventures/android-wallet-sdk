@@ -1,3 +1,3 @@
 install: 
-FILE="-Dfile=wallet-sdk-lib-1.2.4940.aar" 
-mvn install:install-file $FILE -DgroupId=com.cybavo.wallet -DartifactId=wallet-sdk-lib -Dversion=1.2.4940 -Dpackaging=aar -DpomFile=pom.xml
+  - FILE="-Dfile=wallet-sdk-lib-1.2.4940.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.cybavo.wallet -DartifactId=wallet-sdk-lib -Dversion=1.2.4940 -Dpackaging=aar -DgeneratePom=true

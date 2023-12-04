@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+             http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cybavo.wallet</groupId>
   <artifactId>wallet-sdk-lib</artifactId>
   <version>1.2.4940</version>
-  <packaging>aar</packaging>
-
-  <properties>
-    <android.maven.plugin.version>4.6.0</android.maven.plugin.version>
-  </properties>
 
   <repositories>
     <repository>
@@ -21,26 +18,6 @@
       <url>https://repo.maven.apache.org/maven2</url>
     </repository>
   </repositories>
-
-  <build>
-      <plugins>
-        <plugin>
-          <groupId>com.simpligility.maven.plugins</groupId>
-          <artifactId>android-maven-plugin</artifactId>
-          <version>${android.maven.plugin.version}</version>
-          <extensions>true</extensions>
-          <configuration>
-            <sdk>
-              <platform>29</platform>
-            </sdk>
-            <androidManifestFile>${project.basedir}/src/main/AndroidManifest.xml</androidManifestFile>
-            <assetsDirectory>${project.basedir}/src/main/assets</assetsDirectory>
-            <resourceDirectory>${project.basedir}/src/main/res</resourceDirectory>
-            <nativeLibrariesDirectory>${project.basedir}/src/main/libs</nativeLibrariesDirectory>
-          </configuration>
-        </plugin>
-      </plugins>
-  </build>
 
 <dependencies>
     <dependency>
